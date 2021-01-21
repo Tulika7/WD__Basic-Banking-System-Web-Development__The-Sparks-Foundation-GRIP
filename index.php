@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Home | P&T Bank</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="Nav">
+    <nav>
+    <ul class="Top_Nav">
+        <img class="Search" src="img/Bank.png">
+        <li><b> Branch: Budge Budge </b></li>
+        <li><a href="#Location"><b> Contact </b></a></li>
+    </ul>
+    <ul class="Main_Nav">
+      <a href="index.php"> <li class="Home">Home</li></a>
+      <a href="#Importants"> <li>Importants</li></a>
+      <a href="#Location"><li> Location </li></a>
+      <a href="#Contact"><li> Contact</li></a>
+      </ul>
+    <ul class="Buttom_Nav">
+        <li><a href="index.php"> Home </a></li>
+    </ul>
+    </nav>
+  </section>
+  <section>
+    <div class="Slider">
+      <div class="Slide" >
+        <img class="MySlides" src="img/Banner11.png" style="width:100%">
+        <img class="MySlides" src="img/Banner12.png" style="width:100%">
+        <img class="MySlides" src="img/Banner13.png" style="width:100%">
+      </div>
+    </div>
+  </section>
+  <section class="Importants"  id="Importants" >
+  <div>
+       <div class="row">
+        <b class="Heading"> Importants </b>
+         <center>
+         <div class="column">
+           <ul>
+             <li>
+               <img class="AboutUs" src="img/home.png">
+             </li>
+             <br>
+             <a href="AboutUs.php">
+             <li class="Bar">
+               <h3><b><center> About Us </center></b></h3>
+             </li>
+             </a>
+           </ul>
+         </div>
+         <div class="column">
+           <ul>
+             <li>
+               <img class="CustomerDetails" src="img/Customer_Details.png">
+             </li>
+             <br>
+             <a href="CustomerDetails.php">
+             <li class="Bar">
+               <h3><b><center> Customer Details </center></b></h3>
+             </li>
+             </a>
+           </ul>
+         </div>
+         <div class="column">
+           <ul>
+             <li>
+               <img class="TransferMoney" src="img/TransferMoney.png">
+             </li>
+             <br>
+             <a href="TransferMoney.php">
+             <li class="Bar">
+               <h3><b><center> Transfer Money  </center></b></h3>
+             </li>
+             </a>
+           </ul>
+         </div>
+         <div class="column">
+           <ul>
+             <li>
+               <img class="TransactionDetails" src="img/TransactionDetails.png">
+             </li>
+             <br>
+             <a href="TransactionDetails.php">
+             <li class="Bar">
+               <h3><b><center> Transaction Details</center></b></h3>
+             </li>
+             </a>
+           </ul>
+         </div>
+         </center>
+       </div>
+    </div>
+  </section>
+  <section class="Location" id="Location">
+        <br>
+        <div class="sp"> 
+          <b class="Heading">Location</b><br><br><br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.6153192063326!2d88.1925902291596!3d22.486870138213728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDI5JzEyLjciTiA4OMKwMTEnMzUuMyJF!5e0!3m2!1sen!2sin!4v1610220579053!5m2!1sen!2sin" width="350" height="280" frameborder="0" style="border:.5%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        
+        <div class="sp" id="Contact"> 
+          <b class="Heading">Contact</b><br><br><br><br>
+           <img class="Con" src="img/Bank2.png"><br><br><br>
+           <b> Contact: </b> +91 0123456789 <br><br><br>
+           <b> Email: </b> example@gmail.com<br><br><br><br><br><br><br><br><br>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section class="Footer">
+      <div><br>
+        <img class="Con" src="img/LOGO.png">
+      </div>
+      <div>
+        <ul>
+          <a href="#Importants"><li> Importants </li></a><br>
+          <a href="#Location"><li> Location </li></a><br>
+          <a href="#Contact"><li> Contact</li></a><br>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <a href="AboutUs.php"> <li>About Us</li></a><br>
+          <a href="CustomerDetails.php"><li> Customer Details </li></a><br>
+          <a href="TransferMoney.php"><li> Transfer Money</li></a><br>
+          <a href="TransactionDetails.php"><li> Transaction Details</li></a><br>
+        </ul>
+      </div>
+      <div>
+        <a href="https://www.facebook.com"> <img class="SM" src="img/Facebook.png"> </a>
+        <a href="https://www.linkedin.com/in/tulika-panjal-037507193/"> <img class="SM" src="img/Linkedin.png"> </a>
+        <a href="https://www.instagram.com"> <img class="SM" src="img/Instagram.png"> </a>
+        <a href="https://twitter.com"> <img class="SM" src="img/Twitter.png"> </a>
+        <br><br><br>
+        <p style="float: right;"><i style="font-size: 11px"> Designed By </i> <i> Tulika Panjal  </i></p>
+      </div>
+    </section>
+	<script src="script.js">
+
+	</script>
+</body>
+
+</html>
